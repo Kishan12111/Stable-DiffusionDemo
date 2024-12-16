@@ -12,7 +12,7 @@ async function generateImage() {
 
     try {
         // Send the prompt to your API
-        const response = await fetch("https://5949-35-230-7-195.ngrok-free.app/generate", {
+        const response = await fetch("https://f76b-34-125-211-124.ngrok-free.app/generate", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
