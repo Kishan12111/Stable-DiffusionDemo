@@ -1,0 +1,152 @@
+/* background: linear-gradient(45deg, hsla(254, 68%, 9%, 1) 0%, hsla(269, 97%, 37%, 1) 33%, hsla(320, 77%, 55%, 1) 66%, hsla(316, 41%, 93%, 1) 100%);
+background-size: 400% 400%; /* Allows animation to have room to "move" */
+/* animation: colour 12s ease-in-out infinite; */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, hsla(254, 68%, 9%, 1) 0%, hsla(269, 97%, 37%, 1) 33%, hsla(320, 77%, 55%, 1) 66%, hsla(316, 41%, 93%, 1) 100%);
+    background-size: 400% 400%; /* Allows animation to have room to "move" */
+    animation: colour 12s ease-in-out infinite;
+}
+
+@keyframes colour {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("Quicksand-VariableFont_wght.ttf") format('woff2');
+}
+
+
+@font-face {
+    font-family: "Jersey 15";
+    src: url("Jersey15-Regular.ttf") format('woff2'), 
+         url("Jersey15-Regular.ttf") format('woff');
+
+    font-family: "Exo2-Regular";
+    src: url("Exo2-VariableFont_wght.ttf") format('woff2');
+    
+  }
+   header  {
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 30px;
+    /* color: white; */
+  }
+   
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  img {
+    width: 65px;
+    height: auto;
+  }
+  
+ .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+
+ }
+
+ .logo{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 10px;
+padding-left: 40px;
+
+}
+
+.logo h1 {
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 27px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 21px;
+    
+   
+  }
+  
+  .Auth {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    padding-right: 20px;
+    
+    
+  }
+  .login-btn {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  .login-btn-sign {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background-color: aliceblue;
+  }
+
+.slogan{
+    display: flex;
+    color: whitesmoke;
+    position: relative;
+    flex-wrap: wrap;
+    left: 7%;
+    top: 13%;
+    font-family: "Exo2-Regular";
+    font-size: 60px;
+    word-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sub-slogan{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    display: flex;
+    color: rgb(183, 182, 182);
+    position: relative;
+    flex-wrap: wrap;
+    left: 7.5%;
+    top: 16%;
+    word-spacing: 2px;
+    font-weight: 600;
+    
+}
